@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EgyptTour - Discover Ancient Wonders</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                EGYPTTOUR
+                <span class="logo-divider">|</span>
+            </div>
+            
+            <div class="search-box">
+                <span class="search-icon"></span>
+                <input type="text" placeholder="Search...">
+            </div>
+            
+            <input type="checkbox" id="mobile-menu-toggle">
+            <label for="mobile-menu-toggle" class="mobile-menu-btn">☰</label>
+            
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Guides">Guides</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Inspiration">Inspiration</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="signup-btn">Sign up</button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <section class="hero-section">
+        <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Egypt desert with couple" class="hero-image">
+        <h1 class="hero-title">FIND THE BEST EGYPTIAN GUIDE</h1>
+    </section>
+
+    <!-- Filters Section -->
+    <div class="filters-container" id="Home">
+        <div class="filters-row">
+            <div class="filter-group">
+                <span class="filter-label">Gender</span>
+                <select class="filter-select" id="gender">
+                    <option value="">Any</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label">Age</span>
+                <select class="filter-select" id="age">
+                    <option value="">Any</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46+">46+</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label">Language</span>
+                <select class="filter-select" id="language">
+                    <option value="">Any</option>
+                    <option value="english">English</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="french">French</option>
+                    <option value="spanish">Spanish</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label">Location</span>
+                <select class="filter-select" id="location">
+                    <option value="">Any</option>
+                    <option value="cairo">Cairo</option>
+                    <option value="luxor">Luxor</option>
+                    <option value="aswan">Aswan</option>
+                    <option value="alexandria">Alexandria</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="search-btn-container">
+            <button type="submit" class="search-btn">SEARCH GUIDES</button>
+        </div>
+    </div>
+
+    <!-- Guides Section -->
+    <section class="guides-section" id="Guides">
+        <div class="section-header">
+            <h2 class="section-title">GUIDES FOR YOU!</h2>
+            <button class="see-all-btn">SEE ALL GUIDES</button>
+        </div>
+        
+        <div class="guides-grid">
+            <div class="guide-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Guide" class="guide-photo">
+                <h3 class="guide-name">Ahmed Hassan</h3>
+                <div class="guide-rating">★★★★★</div>
+                <div class="guide-reviews">1000+ reviews</div>
+            </div>
+            
+            <div class="guide-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Guide" class="guide-photo">
+                <h3 class="guide-name">Layla Mohamed</h3>
+                <div class="guide-rating">★★★★★</div>
+                <div class="guide-reviews">850+ reviews</div>
+            </div>
+            
+            <div class="guide-card">
+                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Guide" class="guide-photo">
+                <h3 class="guide-name">Omar Farouk</h3>
+                <div class="guide-rating">★★★★★</div>
+                <div class="guide-reviews">1200+ reviews</div>
+            </div>
+            
+            <div class="guide-card">
+                <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Guide" class="guide-photo">
+                <h3 class="guide-name">Yasmin Ali</h3>
+                <div class="guide-rating">★★★★★</div>
+                <div class="guide-reviews">950+ reviews</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <h2 class="reviews-title">CUSTOMER REVIEWS</h2>
+        
+        <div class="review-container">
+            <div class="review-content">
+                <p class="review-text">
+                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. QUISQUE DIAM PELLENTESQUE BIBENDUM NON DUI VOLUTPAT FRINGILLA BIBENDUM. URNA, ELIT AUQUE URNA, VITAE FEUGIAT PRETIUM DONEC ID ELEMENTUM. ULTRICES MATTIS SED VITAE MUS RISUS. LACUS NISI, ET AC DAPIBUS SIT EU VELIT IN CONSEQUAT.
+                </p>
+                
+                <div class="review-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Abdur Rahman" class="author-avatar">
+                    <span class="author-name">ABDUR RAHMAN</span>
+                </div>
+            </div>
+            
+            <div class="review-image">
+                <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Egypt tour">
+            </div>
+            
+            <button class="order-now-btn">ORDER NOW <br> <div class="unicode-stars">★★★★★</div>
+                 <br>  LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.</button>
+        </div>
+    </section>
+
+     <!-- Banner Section with Image -->
+     <section class="banner-section">
+        <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Egypt tour" class="banner-image">
+        
+        <div class="banner-overlay">
+            <h1 class="banner-title">ARE YOU A TOURIST<br>GUIDE IN EGYPT?</h1>
+        </div>
+    </section>
+    
+    <!-- Footer Section with CTA -->
+    <section class="footer-section" id="Inspiration">
+        <div class="footer-content">
+            <p class="footer-text">BE REFERENCED ON OUR SITE, IT'S 100% FREE!</p>
+            <button class="footer-button">I AM A TOURIST GUIDE</button>
+        </div>
+        
+        <div class="tourist-info">
+            <div class="avatars">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tourist" class="avatar">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tourist" class="avatar">
+                <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Tourist" class="avatar">
+                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Tourist" class="avatar">
+            </div>
+            <div class="tourist-count">1000+ TOURIST JOIN US</div>
+        </div>
+    </section>
+    <section class="learn-more-section" id="About">
+        <h2 class="section-title">LEARN MORE ABOUT EGYPT</h2>
+        
+        <div class="content-grid">
+            <!-- Большая фотография слева -->
+            <div class="photo-container main-photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Karnak18.JPG/1200px-Karnak18.JPG" alt="Pyramids of Giza">
+            </div>
+            
+            <!-- Первая карточка справа -->
+            <div class="category-card">
+                <h3 class="category-title">RESTAURANT</h3>
+                <p class="category-info">5 RESTAURANT<br>IN CAIRO</p>
+                <span class="category-count">7</span>
+                <div class="photo-container" style="margin-top: 20px; height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cairo Restaurant">
+                </div>
+            </div>
+            
+            <!-- Вторая карточка справа -->
+            <div class="category-card">
+                <h3 class="category-title">HOTEL</h3>
+                <p class="category-info">WHERE TO SLEEP<br>IN LUXOR?</p>
+                <span class="category-count">7</span>
+                <div class="photo-container" style="margin-top: 20px; height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Luxor Hotel">
+                </div>
+            </div>
+        </div>
+        
+       
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        
+    </main>
+</section>
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <div class="footer-logo">EGYPTTOUR</div>
+            <p class="footer-text">
+                AMET MINIM MOLLIT NON DESERUNT<br>
+                ULLAMCO EST SIT ALIGUA DOLOR DO<br>
+                AMET SINT. VELIT OFFICIA CONSEQUAT<br>
+                DUIS ENIM VELIT MOLLIT.<br>
+                EXERCITATION VENIAM CONSEQUAT<br>
+                BUNT NOSTRUD AMET.
+            </p>
+        </div>
+        
+        <div class="footer-links-section">
+            <h3 class="footer-heading">USEFUL LINKS</h3>
+            <ul class="footer-links">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">INSPIRATION</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-links-section">
+            <h3 class="footer-heading">RESOURCES</h3>
+            <ul class="footer-links">
+                <li><a href="#">BECOME A GUIDE</a></li>
+                <li><a href="#">LEGAL</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-contact">
+            <h3 class="footer-heading">CONTACT US</h3>
+            <p>INFOMAIL@GMAIL.COM</p>
+            <p>48 STREET ROAD, CAIRO</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="footer-copyright">© 2022 EGYPTTOUR</div>
+        <div class="footer-legal">
+            <a href="#">PRIVACY POLICY</a>
+            <a href="#">TERM OF CONDITION</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
